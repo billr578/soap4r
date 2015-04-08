@@ -69,7 +69,7 @@ PARSER_LIBS.each do |name|
     # XXX: for a workaround of rubygems' require inconsistency
     # XXX: MUST BE REMOVED IN THE FUTURE
     raise LoadError unless XSD::XMLParser.constants.find { |c|
-      c.to_s.downcase == name.downcase
+      c.to_s.downcase == name
     }
     loaded = true
     break
