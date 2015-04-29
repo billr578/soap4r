@@ -1,7 +1,12 @@
 == soap4r
-This is a fork of the soap4r project as imported to GitHub by spox.  
+This is a fork of the soap4r project as imported to GitHub by spox.
 Changes have been made to fix libxml support and have it work in Ruby 1.9.
 Still work todo in testing.
+
+*UPDATE FOR RAILS 3+*
+
+I've updated this version of the gem to work with Rails 3 (and hopefully above).  Currently I have only tested it with Rails 3 so use with newer versions at your own peril.
+
 
     IMPORTANT NOTE:
         This has been heavily modified and I am still in
